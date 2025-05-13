@@ -3,9 +3,9 @@ server:
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://47.93.245.14:3306/hayishu_cart?useSSL=false&characterEncoding=utf8
-    username: zjh
-    password: zjh19990412
+    url: jdbc:mysql://113.45.179.101:3306/hayishu_cart?useSSL=false&characterEncoding=utf8
+    username: root
+    password: wzh121212
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
     nacos:
@@ -30,14 +30,14 @@ server:
 spring:
   profiles: pro
   datasource:
-    url: jdbc:mysql://mysql:3306/hayishu_cart?useSSL=false
+    url: jdbc:mysql://113.45.179.101:3306/hayishu_cart?useSSL=false
     username: root
-    password: 123456
+    password: wzh121212
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
     nacos:
       discovery:
-        server-addr: nacos:8848
+        server-addr: nacos:8080
   application:
     name: cartservice
 mybatis:

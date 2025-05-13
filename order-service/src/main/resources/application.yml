@@ -5,14 +5,14 @@ spring:
   application:
     name: orderservice
   datasource:
-    url: jdbc:mysql://47.93.245.14:3306/hayishu_order?useSSL=false&characterEncoding=utf8
-    username: zjh
-    password: zjh19990412
+    url: jdbc:mysql://113.45.179.101:3306/hayishu_order?useSSL=false&characterEncoding=utf8
+    username: root
+    password: wzh121212
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
     nacos:
       discovery:
-        server-addr: 47.93.245.14:8848
+        server-addr: 127.0.0.1:8080
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
@@ -32,15 +32,15 @@ spring:
   application:
     name: orderservice
   datasource:
-    url: jdbc:mysql://82.157.149.211:3306/hayishu_order?useSSL=false
+    url: jdbc:mysql://113.45.179.101:3306/hayishu_order?useSSL=false
     username: root
-    password: 123456
+    password: wzh121212
     driver-class-name: com.mysql.jdbc.Driver
   cloud:
     nacos:
       discovery:
-        server-addr: 82.157.149.211:8848
-        ip: 82.157.164.144
+        server-addr: 127.0.0.1:8080
+        ip: 127.0.0.1
         port: 8086
 mybatis:
   configuration:
