@@ -12,7 +12,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8080
+        server-addr: 127.0.0.1:8848
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
@@ -39,7 +39,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8080
+        server-addr: 127.0.0.1:8848
         ip: 127.0.0.1
         port: 8086
 mybatis:
